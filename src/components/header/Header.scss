@@ -10,16 +10,12 @@
   }
 
   .navbar-nav{
+
     > li{
-    > a{
-      padding: $padding-tiny $padding-small !important;
-      font-size: $font-size-small;
-      color: $color-font;
-    }
-      &:hover{
-        .a{
-          color: $color-font;
-        }
+      > a{
+        padding: $padding-small !important;
+        font-size: $font-size-small;
+        color: $color-font;
       }
     }
   }
@@ -34,16 +30,17 @@
   }
   .modelos{
     .dropdown-menu{
+      padding: $padding-tiny;
       height: 270px;
       overflow: auto;
       border-radius: $border-radius;
     }
     .dropdown-item{
+      @include center-space-between;
+
       font-weight: $font-weight-semi-bold;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: $padding-wee $padding-small;
+      padding: $padding-wee;
+
       .modelo{
         margin: 0 $margin-wee 0 $margin-extra;
       }
