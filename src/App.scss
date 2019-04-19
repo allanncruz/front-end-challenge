@@ -1,0 +1,28 @@
+form {
+  .form-control, .custom-select {
+    border: $border;
+    height: 29px;
+    font-size: $font-size-small;
+
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+      border: $border;
+    }
+
+    option {
+      color: $color-gray-base;
+    }
+  }
+
+  .form-group {
+    .col-form-label, label {
+      font-size: $font-size-small;
+    }
+  }
+
+  .custom-checkbox {
+    label {
+      font-size: $font-size-wee;
+    }
+  }
+}
