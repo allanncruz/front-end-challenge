@@ -92,7 +92,7 @@
                                     </b-collapse>
                                     <b-button v-b-toggle.collapse-3 class="py-2 px-3 text-left">
                                         Toyota Nações Unidas
-                                        <i class="fas fa-chevron-down"></i>
+                                        <font-awesome-icon icon="chevron-down"></font-awesome-icon>
                                     </b-button>
 
                                     <b-collapse id="collapse-4">
@@ -104,7 +104,7 @@
                                     </b-collapse>
                                     <b-button v-b-toggle.collapse-4 class="py-2 px-3 text-left">
                                         Toyota Morombi
-                                        <i class="fas fa-chevron-down"></i>
+                                        <font-awesome-icon icon="chevron-down"></font-awesome-icon>
                                     </b-button>
                                 </b-card>
                             </b-collapse>

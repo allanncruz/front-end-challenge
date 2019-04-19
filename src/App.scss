@@ -1,3 +1,28 @@
+
+.text-large{
+  font-size: $font-size-large;
+}
+.text-base{
+  font-size: $font-size-base;
+}
+.text-small{
+  font-size: $font-size-small;
+}
+.text-wee{
+  font-size: $font-size-wee;
+}
+
+h1{
+  font-size: $font-size-h1;
+}
+h2{
+  font-size: $font-size-h2;
+}
+h3{
+  font-size: $font-size-h3;
+}
+
+// Estrutura padrão de formulários customizada
 form {
   .form-control, .custom-select {
     border: $border;

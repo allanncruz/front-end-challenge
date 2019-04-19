@@ -73,8 +73,8 @@
         font-size: $font-size-small;
       }
       > .fa-chevron-down{
-        margin-left: 16px;
-        font-size: 10px;
+        margin-left: $margin-small;
+        font-size: $font-size-wee;
       }
     }
 
@@ -88,7 +88,7 @@
 
         @include center-space-between;
         position: relative;
-        z-index: 9;
+        z-index: $z-index-behind;
         &[aria-expanded="true"]{
           color: $color-primary-base;
           .fa-chevron-down{

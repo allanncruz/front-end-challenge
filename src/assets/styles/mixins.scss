@@ -9,3 +9,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@mixin nobg-text-white() {
+  background: transparent;
+  color: $color-white;
+}
