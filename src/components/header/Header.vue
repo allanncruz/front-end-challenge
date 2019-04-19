@@ -77,9 +77,9 @@
                     <b-navbar-nav class="align-items-center">
                         <div class="phones">
                             <b-button v-b-toggle.collapse-2 class="">
-                                <i class="fas fa-phone fa-flip-horizontal mr-1"></i>
+                                <font-awesome-icon class="fa-flip-horizontal mr-1" icon="phone"></font-awesome-icon>
                                 Telefones
-                                <i class="fas fa-chevron-down"></i>
+                                <font-awesome-icon icon="chevron-down"></font-awesome-icon>
                             </b-button>
                             <b-collapse id="collapse-2" class="rounded phones-box">
                                 <b-card class="phones-items border-0">

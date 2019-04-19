@@ -10,16 +10,12 @@
   }
 
   .navbar-nav{
+
     > li{
-    > a{
-      padding: $padding-tiny $padding-small !important;
-      font-size: $font-size-small;
-      color: $color-font;
-    }
-      &:hover{
-        .a{
-          color: $color-font;
-        }
+      > a{
+        padding: $padding-small !important;
+        font-size: $font-size-small;
+        color: $color-font;
       }
     }
   }
@@ -29,23 +25,24 @@
     padding: $padding-wee 0;
     a{
       font-size: $font-size-small;
-      padding: 5px 17px;
+      padding: $padding-tiny $padding-small;
     }
   }
   .modelos{
     .dropdown-menu{
+      padding: $padding-tiny;
       height: 270px;
       overflow: auto;
       border-radius: $border-radius;
     }
     .dropdown-item{
+      @include center-space-between;
+
       font-weight: $font-weight-semi-bold;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: $padding-wee $padding-small;
+      padding: $padding-small;
+
       .modelo{
-        margin: 0 $margin-wee 0 $margin-extra;
+        margin-left: $margin-extra;
       }
     }
   }
@@ -63,7 +60,7 @@
       color:$color-font;
       border: solid 2px $color-font;
       font-size: $font-size-base;
-      padding: 4px 15px;
+      padding: $padding-tiny $padding-small;
       box-shadow:none;
 
       &:active{
@@ -88,9 +85,8 @@
         border:0;
         width: 100%;
         border-bottom: $border;
-        justify-content: space-between;
-        display: flex;
-        align-items: center;
+
+        @include center-space-between;
         position: relative;
         z-index: 9;
         &[aria-expanded="true"]{

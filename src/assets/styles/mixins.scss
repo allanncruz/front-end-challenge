@@ -1,0 +1,11 @@
+// --------------------------------------------------
+// Flexbox SASS mixins
+// The spec: http://www.w3.org/TR/css3-flexbox
+// --------------------------------------------------
+
+// Flexbox display
+@mixin center-space-between() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
