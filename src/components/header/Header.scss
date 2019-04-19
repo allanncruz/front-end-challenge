@@ -85,9 +85,8 @@
         border:0;
         width: 100%;
         border-bottom: $border;
-        justify-content: space-between;
-        display: flex;
-        align-items: center;
+
+        @include center-space-between;
         position: relative;
         z-index: 9;
         &[aria-expanded="true"]{
