@@ -67,9 +67,8 @@
                                 </b-form-group>
                                 <b-form-checkbox>Desejo receber oofertas exclusivas da PG Prime.</b-form-checkbox>
 
-                                <b-button variant="primary"
-                                          class="btn-block font-weight-bold text-uppercase my-3">Simular Financiamento</b-button>
-                                <a href="#" class="text-white">Politica de privacidade</a>
+                                <button class="btn-block btn-primary-base">Simular Financiamento</button>
+                                <a href="#" class="text-white text-small">Politica de privacidade</a>
                             </b-form>
                         </div>
                     </div>

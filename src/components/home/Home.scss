@@ -36,6 +36,9 @@
       .custom-control-input:not(:disabled):active ~ .custom-control-label::before{
         background: transparent;
       }
+      button{
+        margin: $margin-base 0;
+      }
     }
   }
 
