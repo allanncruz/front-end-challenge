@@ -25,7 +25,7 @@
     padding: $padding-wee 0;
     a{
       font-size: $font-size-small;
-      padding: 5px 17px;
+      padding: $padding-tiny $padding-small;
     }
   }
   .modelos{
@@ -39,10 +39,10 @@
       @include center-space-between;
 
       font-weight: $font-weight-semi-bold;
-      padding: $padding-wee;
+      padding: $padding-small;
 
       .modelo{
-        margin: 0 $margin-wee 0 $margin-extra;
+        margin-left: $margin-extra;
       }
     }
   }
@@ -60,7 +60,7 @@
       color:$color-font;
       border: solid 2px $color-font;
       font-size: $font-size-base;
-      padding: 4px 15px;
+      padding: $padding-tiny $padding-small;
       box-shadow:none;
 
       &:active{
