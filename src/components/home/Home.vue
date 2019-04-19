@@ -83,10 +83,12 @@
                                 <p class="description text-large">Você tem mais para descobrir.</p>
                             </div>
                             <div class="headline-price">
-                                <p class="price-old text-large m-0">de R$ 44.120,00</p>
-                                <p class="price m-0">
-                                    <small>por R$</small> 40.987,00
+                                <p class="price-old text-large m-0">
+                                    de <s>R$ 44.120,00</s>
                                 </p>
+                                <h2 class="price m-0">
+                                    <small>por R$</small> 40.987,00
+                                </h2>
                                 <span class="conditions text-wee">*Consulte as Condições Comerciais.</span>
                             </div>
                             <div class="headline-social position-absolute w-100">
