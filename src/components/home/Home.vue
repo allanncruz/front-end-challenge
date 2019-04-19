@@ -6,8 +6,8 @@
                 <b-col cols="4">
                     <div class="showcase-content isca">
                         <div class="isca-header text-center">
-                            <h4 class="title text-uppercase m-0">Simular financiamento</h4>
-                            <p class="subtitle">Escolha a parcela que cabe no seu bolso.</p>
+                            <h4 class="title text-large text-uppercase m-0">Simular financiamento</h4>
+                            <p class="subtitle text-small">Escolha a parcela que cabe no seu bolso.</p>
                         </div>
 
                         <hr>
@@ -78,19 +78,19 @@
                     <div class="showcase-content">
                         <div class="headline h-100 position-relative">
                             <div class="headline-content">
-                                <h2 class="title m-0 text-uppercase font-weight-bold">Etios Hatch 2017</h2>
-                                <h4 class="version text-uppercase font-weight-bold">X 1.3 MANUAL</h4>
-                                <p class="description">Você tem mais para descobrir.</p>
+                                <h1 class="title m-0 text-uppercase font-weight-bold">Etios Hatch 2017</h1>
+                                <h3 class="version text-uppercase">X 1.3 MANUAL</h3>
+                                <p class="description text-large">Você tem mais para descobrir.</p>
                             </div>
                             <div class="headline-price">
-                                <p class="price-old m-0">de R$ 44.120,00</p>
+                                <p class="price-old text-large m-0">de R$ 44.120,00</p>
                                 <p class="price m-0">
                                     <small>por R$</small> 40.987,00
                                 </p>
-                                <span class="conditions">*Consulte as Condições Comerciais.</span>
+                                <span class="conditions text-wee">*Consulte as Condições Comerciais.</span>
                             </div>
                             <div class="headline-social position-absolute w-100">
-                                <p class="text-share text-center mb-1">Gostou? Então compartilhe.</p>
+                                <p class="text-share text-small text-center mb-1">Gostou? Então compartilhe.</p>
                                 <div class="d-flex justify-content-center">
                                     <div class="btn-share">
                                         <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2FToyotaDoBrasil&layout=button_count&size=small&width=131&height=20&appId"
@@ -105,7 +105,7 @@
                                         </iframe>
                                     </div>
                                 </div>
-                                <p class="text-observation">*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versoes. Preços sugeridos e válidos até 31/07/2015. Os preços poderão ser modificadas sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores..</p>
+                                <p class="text-observation text-wee">*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versoes. Preços sugeridos e válidos até 31/07/2015. Os preços poderão ser modificadas sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores..</p>
                             </div>
                         </div>
                     </div>
