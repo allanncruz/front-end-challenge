@@ -4,8 +4,7 @@ module.exports = {
       sass: {
         data: `
           @import "@/assets/styles/variables.scss";
-          @import "@/assets/styles/mixins.scss";
-          @import "@/assets/styles/btns.scss";
+          @import "@/assets/styles/customized.scss";
         `
       }
     }
