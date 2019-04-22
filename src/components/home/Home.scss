@@ -1,40 +1,4 @@
 
-.attractive{
-  color: $color-font;
-  background: url("../../assets/bg-benefits.jpg");
-  padding: $margin-big 0;
-
-  .attractive-items{
-    text-align: center;
-    position: relative;
-
-    &:before{
-      @include before-default;
-
-      width: 2px;
-      height: 100%;
-      background: #5a3740;
-    }
-    &:last-child{
-      &:before{
-        display: none;
-      }
-    }
-
-    h3{
-      font-weight: $font-weight-light;
-    }
-    h1{
-      color: $color-primary-base;
-    }
-    p{
-      margin: 0;
-      font-size: $font-size-base;
-      color: $color-gray;
-    }
-  }
-}
-
 .versions{
   $font-size-h3: 22px;
   h3{
