@@ -7,6 +7,12 @@ html, body {
 @mixin center-space-between() {
 
 }
+@mixin before-default() {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
 
 @mixin nobg-text-white() {
   background: transparent;
