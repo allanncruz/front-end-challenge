@@ -115,7 +115,7 @@
                 </b-row>
             </b-container>
         </div>
-        <div class="attractive">
+        <div class="attractive relative">
             <b-container>
                 <b-row>
                     <b-col cols="4" class="attractive-items">
@@ -132,6 +132,24 @@
                         <h3>Bónus</h3>
                         <h1>R$ 3 mil de até</h1>
                         <p>Always first off the line. Instant torque delivers full power in a heartbeat.</p>
+                    </b-col>
+                </b-row>
+            </b-container>
+        </div>
+
+        <div class="versions">
+            <b-container>
+                <b-row>
+                    <b-col cols="3">
+                        <div class="versions-aside">
+                            <h3>Versões</h3>
+                        </div>
+                    </b-col>
+                    <b-col cols="9">
+                        <div class="info-cars"></div>
+                        <div class="info-general absolute right">
+                            <h3>Informações Gerais</h3>
+                        </div>
                     </b-col>
                 </b-row>
             </b-container>
