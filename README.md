@@ -24,7 +24,7 @@ npm run test
 ```
 
 ### Lints e corrige arquivos
-Conabdo para detectar problemas no padrão de código e também verificar se o mesmo se encontra nos padrões de nossa styleguide
+Comando para detectar problemas no padrão de código e também verificar se o mesmo se encontra nos padrões de nossa styleguide
 ```
 npm run lint
 ```
