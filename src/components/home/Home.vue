@@ -155,22 +155,14 @@
                                     </ul>
                                     <div class="info-general absolute right top">
                                         <h3>Informações Gerais</h3>
-                                        Cilindros/válvulas por
-                                        cilindro:
-
-                                        Diâmetro/curso (mm):
-
-                                        Cilindrada (cc):
-
-                                        Potência máxima EEC
-                                        - Cv:
-
-                                        em rev/min:
-
-                                        Torque máximo EEC -
-                                        Nm (libra-pé):
-
-                                        em rev/min:
+                                        <ul>
+                                            <li>Cilindros/válvulas por cilindro</li>
+                                            <li>Diâmetro/curso (mm):</li>
+                                            <li>Cilindrada (cc):</li>
+                                            <li>Potência máxima EEC - Cv:</li>
+                                            <li>em rev/min:</li>
+                                            <li>Torque máximo EEC - Nm (libra-pé):</li>
+                                        </ul>
 
 
 
@@ -188,22 +180,14 @@
                                     </ul>
                                     <div class="info-general absolute right top">
                                         <h3>Informações Gerais</h3>
-                                        Cilindros/válvulas por
-                                        cilindro:
-
-                                        Diâmetro/curso (mm):
-
-                                        Cilindrada (cc):
-
-                                        Potência máxima EEC
-                                        - Cv:
-
-                                        em rev/min:
-
-                                        Torque máximo EEC -
-                                        Nm (libra-pé):
-
-                                        em rev/min:
+                                        <ul>
+                                            <li>Cilindros/válvulas por cilindro</li>
+                                            <li>Diâmetro/curso (mm):</li>
+                                            <li>Cilindrada (cc):</li>
+                                            <li>Potência máxima EEC - Cv:</li>
+                                            <li>em rev/min:</li>
+                                            <li>Torque máximo EEC - Nm (libra-pé):</li>
+                                        </ul>
 
 
 
@@ -221,26 +205,14 @@
                                     </ul>
                                     <div class="info-general absolute right top">
                                         <h3>Informações Gerais</h3>
-                                        Cilindros/válvulas por
-                                        cilindro:
-
-                                        Diâmetro/curso (mm):
-
-                                        Cilindrada (cc):
-
-                                        Potência máxima EEC
-                                        - Cv:
-
-                                        em rev/min:
-
-                                        Torque máximo EEC -
-                                        Nm (libra-pé):
-
-                                        em rev/min:
-
-
-
-
+                                        <ul>
+                                            <li>Cilindros/válvulas por cilindro</li>
+                                            <li>Diâmetro/curso (mm):</li>
+                                            <li>Cilindrada (cc):</li>
+                                            <li>Potência máxima EEC - Cv:</li>
+                                            <li>em rev/min:</li>
+                                            <li>Torque máximo EEC - Nm (libra-pé):</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </b-card-text>
