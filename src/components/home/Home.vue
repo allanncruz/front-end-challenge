@@ -139,19 +139,114 @@
 
         <div class="versions">
             <b-container>
-                <b-row>
-                    <b-col cols="3">
-                        <div class="versions-aside">
-                            <h3>Versões</h3>
-                        </div>
-                    </b-col>
-                    <b-col cols="9">
-                        <div class="info-cars"></div>
-                        <div class="info-general absolute right">
-                            <h3>Informações Gerais</h3>
-                        </div>
-                    </b-col>
-                </b-row>
+                <b-card no-body>
+                    <div class="versions-list absolute">
+                        <h3>Versões</h3>
+                    </div>
+                    <b-tabs pills card vertical>
+                        <b-tab title="A 200" active>
+                            <b-card-text>
+                                <div class="info-cars">
+                                    <img src="../../assets/versoes/a-200.png" alt="">
+
+                                    <h3>Itens de série</h3>
+                                    <ul>
+                                        <li>Ar condicionado</li>
+                                    </ul>
+                                    <div class="info-general absolute right top">
+                                        <h3>Informações Gerais</h3>
+                                        Cilindros/válvulas por
+                                        cilindro:
+
+                                        Diâmetro/curso (mm):
+
+                                        Cilindrada (cc):
+
+                                        Potência máxima EEC
+                                        - Cv:
+
+                                        em rev/min:
+
+                                        Torque máximo EEC -
+                                        Nm (libra-pé):
+
+                                        em rev/min:
+
+
+
+
+                                    </div>
+                                </div>
+                            </b-card-text>
+                        </b-tab>
+                        <b-tab title="A 250 turbo sport">
+                            <b-card-text>
+                                <div class="info-cars">
+                                    <h3>Itens de série</h3>
+                                    <ul>
+                                        <li>Ar condicionado</li>
+                                    </ul>
+                                    <div class="info-general absolute right top">
+                                        <h3>Informações Gerais</h3>
+                                        Cilindros/válvulas por
+                                        cilindro:
+
+                                        Diâmetro/curso (mm):
+
+                                        Cilindrada (cc):
+
+                                        Potência máxima EEC
+                                        - Cv:
+
+                                        em rev/min:
+
+                                        Torque máximo EEC -
+                                        Nm (libra-pé):
+
+                                        em rev/min:
+
+
+
+
+                                    </div>
+                                </div>
+                            </b-card-text>
+                        </b-tab>
+                        <b-tab title="A 45 amg 4matic">
+                            <b-card-text>
+                                <div class="info-cars">
+                                    <h3>Itens de série</h3>
+                                    <ul>
+                                        <li>Ar condicionado</li>
+                                    </ul>
+                                    <div class="info-general absolute right top">
+                                        <h3>Informações Gerais</h3>
+                                        Cilindros/válvulas por
+                                        cilindro:
+
+                                        Diâmetro/curso (mm):
+
+                                        Cilindrada (cc):
+
+                                        Potência máxima EEC
+                                        - Cv:
+
+                                        em rev/min:
+
+                                        Torque máximo EEC -
+                                        Nm (libra-pé):
+
+                                        em rev/min:
+
+
+
+
+                                    </div>
+                                </div>
+                            </b-card-text>
+                        </b-tab>
+                    </b-tabs>
+                </b-card>
             </b-container>
         </div>
     </div>

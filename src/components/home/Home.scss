@@ -151,19 +151,43 @@
     background: rgba($color-gray-darker,.85);
   }
 
-  .versions-aside{
+  .versions-list{
     padding: $padding-large 0;
     text-align: right;
+    width: 220px;
   }
-}
+  .info-cars{
+    position: relative;
+  }
 
-.info-cars{
-  position: relative;
-}
+  .info-general{
+    width: 305px;
+    height: 365px;
+    padding: $padding-large $padding-base;
+    background: rgba($color-gray-darker,.85);
+  }
 
-.info-general{
-  width: 305px;
-  height: 365px;
-  padding: $padding-large $padding-base;
-  background: rgba($color-gray-darker,.85);
+  .card{
+    background: transparent;
+    .card-body{
+      padding: 0;
+    }
+    .nav-pills{
+      width: 220px;
+      top: 80px;
+      position: relative;
+      text-align: right;
+      padding: 0;
+      .nav-link{
+        padding: 0;
+        background: transparent;
+        opacity: .25;
+        color: $color-font;
+
+        &.active{
+          opacity: 1;
+        }
+      }
+    }
+  }
 }
