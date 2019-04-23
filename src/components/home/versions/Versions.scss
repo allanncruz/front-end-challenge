@@ -54,6 +54,33 @@
     height: 345px;
     padding: $padding-large $padding-base;
     background: rgba($color-gray-darker,.85);
+    ul{
+      height: 250px;
+      padding: 0;
+      margin-top: $margin-small;
+      overflow: auto;
+      li{
+        list-style: none;
+        font-size: $font-size-small;
+        color: $color-gray-dark;
+        display: flex;
+
+        span{
+          width: 100%;
+          display: flex;
+          align-items:center;
+          padding: 4px $padding-wee;
+          &:nth-child(2){
+            color: $color-primary-base;
+          }
+        }
+
+        &:nth-of-type(odd) {
+          background-color: #e9e9f9 ;
+          background-color: rgba($color-font,.05);
+        }
+      }
+    }
   }
 
   .card{
@@ -72,7 +99,7 @@
       .nav-link{
         background: transparent;
         font-size: $font-size-h5;
-        color: rgba($color-font,.20);
+        color: $color-gray-dark;
         padding: $padding-wee;
         position: relative;
         text-transform: uppercase;
@@ -86,7 +113,7 @@
         }
 
         &.active{
-          color: rgba($color-font,1);
+          color: $color-font;
         }
       }
     }

@@ -32,12 +32,62 @@
                                     <div class="versions-general absolute right top">
                                         <h3>Informações Gerais</h3>
                                         <ul>
-                                            <li>Cilindros/válvulas por cilindro</li>
-                                            <li>Diâmetro/curso (mm):</li>
-                                            <li>Cilindrada (cc):</li>
-                                            <li>Potência máxima EEC - Cv:</li>
-                                            <li>em rev/min:</li>
-                                            <li>Torque máximo EEC - Nm (libra-pé):</li>
+                                            <li>
+                                                <span>Cilindros/válvulas por cilindro</span>
+                                                <span>4/4</span>
+                                            </li>
+                                            <li>
+                                                <span>Diâmetro/curso (mm):</span>
+                                                <span>87.5/8.31</span>
+                                            </li>
+                                            <li>
+                                                <span>Cilindrada (cc):</span>
+                                                <span>1,999</span>
+                                            </li>
+                                            <li>
+                                                <span>Potência máxima EEC - Cv:</span>
+                                                <span>240</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>5,500</span>
+                                            </li>
+                                            <li>
+                                                <span>Torque máximo EEC - Nm (libra-pé):</span>
+                                                <span>340</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>2,000-4000</span>
+                                            </li>
+                                            <li>
+                                                <span>Cilindros/válvulas por cilindro</span>
+                                                <span>4/4</span>
+                                            </li>
+                                            <li>
+                                                <span>Diâmetro/curso (mm):</span>
+                                                <span>87.5/8.31</span>
+                                            </li>
+                                            <li>
+                                                <span>Cilindrada (cc):</span>
+                                                <span>1,999</span>
+                                            </li>
+                                            <li>
+                                                <span>Potência máxima EEC - Cv:</span>
+                                                <span>240</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>5,500</span>
+                                            </li>
+                                            <li>
+                                                <span>Torque máximo EEC - Nm (libra-pé):</span>
+                                                <span>340</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>2,000-4000</span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -68,12 +118,38 @@
                                     <div class="versions-general absolute right top">
                                         <h3>Informações Gerais</h3>
                                         <ul>
-                                            <li>Cilindros/válvulas por cilindro</li>
-                                            <li>Diâmetro/curso (mm):</li>
-                                            <li>Cilindrada (cc):</li>
-                                            <li>Potência máxima EEC - Cv:</li>
-                                            <li>em rev/min:</li>
-                                            <li>Torque máximo EEC - Nm (libra-pé):</li>
+                                            <li>
+                                                <span>Cilindros/válvulas por cilindro</span>
+                                                <span>4/4</span>
+                                            </li>
+                                            <li>
+                                                <span>Diâmetro/curso (mm):</span>
+                                                <span>87.5/8.31</span>
+                                            </li>
+                                            <li>
+                                                <span>Cilindrada (cc):</span>
+                                                <span>1,999</span>
+                                            </li>
+                                            <li>
+                                                <span>Potência máxima EEC - Cv:</span>
+                                                <span>240</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>5,500</span>
+                                            </li>
+                                            <li>
+                                                <span>Torque máximo EEC - Nm (libra-pé):</span>
+                                                <span>340</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>2,000-4000</span>
+                                            </li>
+                                            <li>
+                                                <span>Cilindros/válvulas por cilindro</span>
+                                                <span>4/4</span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -104,12 +180,38 @@
                                     <div class="versions-general absolute right top">
                                         <h3>Informações Gerais</h3>
                                         <ul>
-                                            <li>Cilindros/válvulas por cilindro</li>
-                                            <li>Diâmetro/curso (mm):</li>
-                                            <li>Cilindrada (cc):</li>
-                                            <li>Potência máxima EEC - Cv:</li>
-                                            <li>em rev/min:</li>
-                                            <li>Torque máximo EEC - Nm (libra-pé):</li>
+                                            <li>
+                                                <span>Cilindros/válvulas por cilindro</span>
+                                                <span>4/4</span>
+                                            </li>
+                                            <li>
+                                                <span>Diâmetro/curso (mm):</span>
+                                                <span>87.5/8.31</span>
+                                            </li>
+                                            <li>
+                                                <span>Cilindrada (cc):</span>
+                                                <span>1,999</span>
+                                            </li>
+                                            <li>
+                                                <span>Potência máxima EEC - Cv:</span>
+                                                <span>240</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>5,500</span>
+                                            </li>
+                                            <li>
+                                                <span>Torque máximo EEC - Nm (libra-pé):</span>
+                                                <span>340</span>
+                                            </li>
+                                            <li>
+                                                <span>em rev/min:</span>
+                                                <span>2,000-4000</span>
+                                            </li>
+                                            <li>
+                                                <span>Cilindros/válvulas por cilindro</span>
+                                                <span>4/4</span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
