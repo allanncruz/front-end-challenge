@@ -4,8 +4,18 @@ html, body {
 }
 
 // SASS mixins personalizados
+@mixin flex-center() {
+  display: flex;
+  align-items: center;
+}
 @mixin center-space-between() {
-
+  @include flex-center;
+  justify-content: space-between;
+}
+@mixin center-column() {
+  @include flex-center;
+  justify-content: center;
+  flex-direction: column;
 }
 @mixin before-default() {
   content: "";
@@ -34,10 +44,26 @@ html, body {
   box-shadow: 0 4px 7px rgba(0,0,0,0.4);
 
   &:hover{
-    filter: grayscale(10%);
+    background: $color-primary-dark;
   }
   &:active{
-    filter: grayscale(20%);
+    background: $color-primary-light;
+  }
+}
+
+
+.carousel{
+  .owl-dots{
+    .owl-dot{
+      span{
+        background: $color-gray;
+      }
+      &.active{
+        span{
+          background: $color-primary-base;
+        }
+      }
+    }
   }
 }
 
