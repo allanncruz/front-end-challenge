@@ -1,8 +1,41 @@
 .cars{
   padding: $padding-big 0;
   h2{
-    text-align: center;
     color: $color-gray-darker;
     font-weight: $font-weight-light;
+  }
+
+  .carousel{
+    margin-top: 70px;
+    position: relative;
+
+    > span{
+      display: flex !important;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      color: $color-font;
+      padding: $padding-tiny;
+
+      .svg-inline--fa{
+        background: rgba($color-steam,.45);
+        width: 29px;
+        height: 29px;
+        padding: 8px;
+        &:hover{
+          background: rgba($color-steam,.65);
+        }
+      }
+    }
+
+    .item{
+      @include center-column;
+      img{
+        width: 160px;
+        height: 110px;
+        object-fit: none;
+      }
+    }
   }
 }
