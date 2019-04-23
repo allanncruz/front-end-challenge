@@ -6,6 +6,7 @@
         <Showcase></Showcase>
         <Advantage></Advantage>
         <Versions></Versions>
+        <Cars></Cars>
 
     </div>
 </template>
@@ -14,13 +15,15 @@
     import Showcase from './showcase/Showcase.vue';
     import Advantage from './advantage/Advantage.vue';
     import Versions from './versions/Versions.vue';
+    import Cars from './cars/Cars.vue';
     export default {
         components: {
             'Showcase' : Showcase,
             'Advantage' : Advantage,
             'Versions' : Versions,
+            'Cars' : Cars,
         },
     }
 </script>
 
-<style lang="scss" src="./Home.scss"></style>
+<style></style>
