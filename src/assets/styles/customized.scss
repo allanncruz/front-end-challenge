@@ -4,8 +4,18 @@ html, body {
 }
 
 // SASS mixins personalizados
+@mixin flex-center() {
+  display: flex;
+  align-items: center;
+}
 @mixin center-space-between() {
-
+  @include flex-center;
+  justify-content: space-between;
+}
+@mixin center-column() {
+  @include flex-center;
+  justify-content: center;
+  flex-direction: column;
 }
 @mixin before-default() {
   content: "";
@@ -19,7 +29,7 @@ html, body {
 }
 
 
-// Botão customizado referente ao padrão das cores primária
+// Botão customizado referente ao padrão da cor primária
 .btn-primary-base{
   font-size: $font-size-base;
   color: $color-font;
@@ -34,10 +44,58 @@ html, body {
   box-shadow: 0 4px 7px rgba(0,0,0,0.4);
 
   &:hover{
-    filter: grayscale(10%);
+    background: $color-primary-dark;
   }
   &:active{
-    filter: grayscale(20%);
+    background: $color-primary-light;
+  }
+}
+
+//Regras padrao para definir estilo do Owl Carousel (paginaçao e botoes nex/prev ).
+.carousel{
+
+  > span{
+    display: flex !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    color: $color-font;
+    padding: $padding-tiny;
+    z-index: $z-index-behinder;
+
+    .svg-inline--fa{
+      background: rgba($color-steam,.45);
+      width: 29px;
+      height: 29px;
+      padding: 8px;
+      &:hover{
+        background: rgba($color-steam,.65);
+      }
+    }
+
+    &:nth-child(1){
+      align-items: center;
+    }
+
+    &:nth-child(3){
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+  .owl-dots{
+    position: relative;
+    .owl-dot{
+      span{
+        background: $color-gray;
+      }
+      &.active{
+        span{
+          background: $color-primary-base;
+        }
+      }
+    }
   }
 }
 
@@ -66,7 +124,7 @@ h3{
   font-size: $font-size-h3;
 }
 
-// Estrutura padrão de formulários customizada
+// Estrutura padrão de formulários
 form {
   .form-control, .custom-select {
     border: $border;
