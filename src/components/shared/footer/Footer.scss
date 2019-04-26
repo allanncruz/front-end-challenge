@@ -1,0 +1,40 @@
+.footer{
+  padding: $padding-large 0;
+  background: $color-footer-base;
+  color: $color-gray-dark;
+  text-align: center;
+
+  .copyright{
+    .copyright-text{
+      margin: 0;
+    }
+    a{
+      margin: 0 $margin-wee;
+      text-decoration: underline;
+      color: $color-gray-dark;
+    }
+  }
+  .copyright-autoforce{
+    margin-top: $margin-big;
+  }
+
+  .icons{
+    display: flex;
+    i{
+      @include center-column;
+      width: 35px;
+      height: 35px;
+      color: $color-gray-darker;
+      background: rgba($color-font,.25);
+      margin-right: $margin-tiny;
+      &:hover{
+        color: $color-font;;
+      }
+    }
+    a{
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
