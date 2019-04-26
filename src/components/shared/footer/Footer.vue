@@ -19,11 +19,14 @@
                     <b-col cols="2">
                         <div class="icons">
                             <a href="#">
-                                <i class="fab fa-facebook"></i></a>
-                            <a ref="#">
-                                <i class="fab fa-twitter"></i></a>
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
                             <a href="#">
-                                <i class="fab fa-google-plus"></i></a>
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
                         </div>
                     </b-col>
                 </b-row>

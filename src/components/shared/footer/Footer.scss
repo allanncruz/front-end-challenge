@@ -24,14 +24,11 @@
       @include center-column;
       width: 35px;
       height: 35px;
-      color: $color-gray-darker;
       background: rgba($color-font,.25);
       margin-right: $margin-tiny;
-      &:hover{
-        color: $color-font;;
-      }
     }
     a{
+      color: $color-gray-darker;
       &:hover{
         text-decoration: none;
       }
