@@ -1,7 +1,9 @@
 <template>
     <div>
         <div class="showcase">
-            <img class="showcase-img absolute" src="../../../assets/banner-video.jpg" alt="">
+
+            <iframe :src="video.url" :allow="video.allow"></iframe>
+
             <b-container class="h-100">
                 <b-row class="h-100 align-items-end text-white">
                     <b-col cols="4">
@@ -119,8 +121,16 @@
 </template>
 
 <script>
-    export default {
 
+    export default {
+        data () {
+            return {
+                video: {
+                    url: 'https://player.vimeo.com/video/57398751?background=1',
+                    allow: 'autoplay',
+                }
+            }
+        }
     }
 </script>
 
