@@ -3,7 +3,7 @@
     <b-navbar toggleable="md" type variant>
       <b-container>
         <b-navbar-brand href="#">
-          <img :src="logoGrandMotors.url" :alt="logoGrandMotors.title">
+          <img :src="logoGrandMotors.logo" :alt="logoGrandMotors.title">
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -59,7 +59,7 @@
               </b-collapse>
             </div>
             <b-nav-item class="brand-horizontal">
-              <img :src="logoGrandToyota.url" :alt="logoGrandToyota.title">
+              <img :src="ToyotaMotors.logo" :alt="ToyotaMotors.title">
             </b-nav-item>
           </b-navbar-nav>
         </b-collapse>

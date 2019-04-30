@@ -1,22 +1,26 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+//Importar imagens usadas
+import logoGrandMotors from "../../../assets/logo.png";
+import logoToyotaMotors from "../../../assets/toyota.png";
 
-library.add(faChevronDown, faPhone);
+import etiosHatch from "../../../assets/modelos/etios-hatch_17.png";
+import etiosSeda from "../../../assets/modelos/etios-seda_17.png";
+import etiosCross from "../../../assets/modelos/etios-cross_17.png";
+import corolla from "../../../assets/modelos/corolla_16.png";
+import hiluxDiesel from "../../../assets/modelos/hilux-diesel_16.png";
+
 
 export default {
     data() {
         return {
-            title: "Grand Motors",
 
-            //Logomarcas usadas
-            logoGrandMotors: {
-                url: require('../../../assets/logo.png'),
+            //Logomarcas
+            GrandMotors: {
+                logo: logoGrandMotors,
                 title: 'Grand Motors'
             },
-            logoGrandToyota: {
-                url: require('../../../assets/toyota.png'),
-                title: 'Grand Motors'
+            ToyotaMotors: {
+                logo: logoToyotaMotors,
+                title: 'Toyta Motors'
             },
 
             //Lista de contatos
@@ -40,38 +44,28 @@ export default {
                 {
                     title: "Etios Hatch 2017",
                     link: "#",
-                    thumb: require('../../../assets/modelos/etios-hatch_17.png')
+                    thumb: etiosHatch
                 },
                 {
                     title: "Etios Sedã 2017",
                     link: "#",
-                    thumb: require('../../../assets/modelos/etios-seda_17.png')
+                    thumb: etiosSeda
                 },
                 {
                     title: "Etios Cross 2017",
                     link: "#",
-                    thumb: require('../../../assets/modelos/etios-cross_17.png')
+                    thumb: etiosCross
                 },
                 {
                     title: "Corolla 2016",
                     link: "#",
-                    thumb: require('../../../assets/modelos/corolla_16.png')
+                    thumb: corolla
                 },
                 {
                     title: "Hilux CD Diesel 2016",
                     link: "#",
-                    thumb: require('../../../assets/modelos/hilux-diesel_16.png')
+                    thumb: hiluxDiesel
                 },
-                {
-                    title: "Corolla 2016",
-                    link: "#",
-                    thumb: require('../../../assets/modelos/corolla_16.png')
-                },
-                {
-                    title: "Hilux CD Diesel 2016",
-                    link: "#",
-                    thumb: require('../../../assets/modelos/hilux-diesel_16.png')
-                }
             ]
         };
     }

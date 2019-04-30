@@ -4,7 +4,7 @@
             <b-container>
                 <b-row>
                     <b-col cols="2">
-                        <img class="footer-logo" src="../../../assets/logo.png" alt="Grand Motors" >
+                        <img class="footer-logo" :src="GrandMotors.logo" :alt="GrandMotors.title" >
                     </b-col>
                     <b-col cols="8">
                         <div class="copyright text-small">
@@ -14,7 +14,7 @@
                             <a href="#">Politica de privacidade</a>
                         </div>
 
-                        <img class="copyright-autoforce" src="../../../assets/autoforce.png" alt="Auto Force" >
+                        <img class="copyright-autoforce" :src="AutoForce.logo" :alt="AutoForce.title" >
                     </b-col>
                     <b-col cols="2">
                         <div class="icons">
@@ -35,10 +35,6 @@
     </div>
 </template>
 
-<script>
-
-    export default {
-    }
-</script>
+<script src="./Footer.js"></script>
 
 <style lang="scss" src="./Footer.scss"></style>
