@@ -1,15 +1,26 @@
 
-.header{
+header{
   z-index: $z-index-force;
+  width: 100%;
+  position: absolute;
 }
 
 .navbar{
   margin: $margin-base 0;
+  padding: 0;
   .navbar-brand{
     margin-right: $margin-big;
   }
+  .nav_collapse{
+    border: 0;
+  }
+  #nav_collapse{
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
 
   .navbar-nav{
+    align-items: center;
 
     > li{
       > a{
@@ -53,6 +64,7 @@
       position: absolute;
       top: 46px;
       box-shadow: 0 0 31px rgba(0,0,0,0.4);
+      border-radius: 0.25rem ;
     }
     .btn-secondary{
       border-radius: 0;
@@ -60,8 +72,8 @@
       color:$color-font;
       border: solid 2px $color-font;
       font-size: $font-size-base;
-      padding: $padding-tiny $padding-small;
       box-shadow:none;
+      padding: .5rem 1rem;
 
       &:active{
         background-color: transparent;
@@ -79,6 +91,7 @@
     }
 
     .phones-items{
+      border: 0;
       width: 260px;
       .btn-secondary{
         color: $color-gray-base;
@@ -107,6 +120,13 @@
         .fa-chevron-down{
           font-size: $font-size-small;
           transition: .3s;
+        }
+      }
+
+      .card{
+        border:0;
+        small{
+          color: $color-font;
         }
       }
 
