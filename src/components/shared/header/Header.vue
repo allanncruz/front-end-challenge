@@ -3,7 +3,7 @@
     <b-navbar toggleable="md" type variant>
       <b-container>
         <b-navbar-brand href="#">
-          <img :src="logoGrandMotors.logo" :alt="logoGrandMotors.title">
+          <img :src="GrandMotors.logo" :alt="GrandMotors.title">
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -12,7 +12,9 @@
           <!-- Renderização listas de modelos carros-->
           <b-navbar-nav>
             <b-nav-item-dropdown text="Nossos Veículos" class="rounded-0 modelos">
-              <b-dropdown-item v-for="model of models" :key="model" :href="model.link">
+              <b-dropdown-item v-for="(model, index) of models"
+                               :key="index"
+                               :href="model.link">
                 {{ model.title }}
                 <img class="modelo" :alt="model.title" :src="model.thumb">
               </b-dropdown-item>
@@ -41,7 +43,8 @@
                 <b-card class="phones-items">
 
                   <!-- Renderização listas de contatos-->
-                  <div v-for="contact of contacts" :key="contact">
+                  <div v-for="(contact, index) of contacts"
+                       :key="index">
                     <b-collapse :id="contact.id">
                       <b-card>
                         <small>
