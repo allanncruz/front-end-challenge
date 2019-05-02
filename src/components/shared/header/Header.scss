@@ -1,0 +1,147 @@
+
+header{
+  z-index: $z-index-force;
+  width: 100%;
+  position: absolute;
+}
+
+.navbar{
+  margin: $margin-base 0;
+  padding: 0;
+  .navbar-brand{
+    margin-right: $margin-big;
+  }
+  .nav_collapse{
+    border: 0;
+  }
+  #nav_collapse{
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+
+  .navbar-nav{
+    align-items: center;
+
+    > li{
+      > a{
+        padding: $padding-small !important;
+        font-size: $font-size-small;
+        color: $color-font;
+      }
+    }
+  }
+
+  .dropdown-menu{
+    border-radius: 0;
+    padding: $padding-wee 0;
+    a{
+      font-size: $font-size-small;
+      padding: $padding-tiny $padding-small;
+    }
+  }
+  .modelos{
+    .dropdown-menu{
+      padding: $padding-tiny;
+      height: 270px;
+      overflow: auto;
+      border-radius: $border-radius;
+    }
+    .dropdown-item{
+      @include center-space-between;
+
+      font-weight: $font-weight-semi-bold;
+      padding: $padding-small;
+
+      .modelo{
+        margin-left: $margin-extra;
+      }
+    }
+  }
+
+  .phones{
+    .phones-box{
+      overflow: hidden;
+      position: absolute;
+      top: 46px;
+      box-shadow: 0 0 31px rgba(0,0,0,0.4);
+      border-radius: 0.25rem ;
+    }
+    .btn-secondary{
+      border-radius: 0;
+      background-color: transparent;
+      color:$color-font;
+      border: solid 2px $color-font;
+      font-size: $font-size-base;
+      box-shadow:none;
+      padding: .5rem 1rem;
+
+      &:active{
+        background-color: transparent;
+        box-shadow:none !important;
+        border: solid 2px $color-font;
+      }
+
+      .fa-phone{
+        font-size: $font-size-small;
+      }
+      > .fa-chevron-down{
+        margin-left: $margin-small;
+        font-size: $font-size-wee;
+      }
+    }
+
+    .phones-items{
+      border: 0;
+      width: 260px;
+      .btn-secondary{
+        color: $color-gray-base;
+        border:0;
+        width: 100%;
+        border-bottom: $border;
+
+        @include center-space-between;
+        position: relative;
+        z-index: $z-index-behind;
+        &[aria-expanded="true"]{
+          color: $color-primary-base;
+          .fa-chevron-down{
+            transform: rotate(180deg);
+          }
+        }
+        &:active{
+          background: transparent;
+          color: $color-primary-base;
+        }
+        &:last-child{
+          border: 0;
+          box-shadow: none;
+          z-index: $z-index-behind;
+        }
+        .fa-chevron-down{
+          font-size: $font-size-small;
+          transition: .3s;
+        }
+      }
+
+      .card{
+        border:0;
+        small{
+          color: $color-font;
+        }
+      }
+
+      .card-body{
+        padding: 0;
+        .card-body{
+          background: $color-primary-base;
+          padding: 0.5rem;
+          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2) inset;
+        }
+      }
+    }
+  }
+
+  .brand-horizontal{
+    margin-left: 50.5px;
+  }
+}
