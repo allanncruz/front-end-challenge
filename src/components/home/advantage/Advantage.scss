@@ -3,7 +3,7 @@
   background: url("../../../assets/advantage-bg.jpg");
   padding: $margin-big 0;
 
-  .advantage-items{
+  .advantage-itens{
     text-align: center;
     position: relative;
 
@@ -17,6 +17,17 @@
     &:last-child{
       &:before{
         display: none;
+      }
+    }
+
+    @media all and (max-width: 768px){
+
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      &:before{
+        width: 100%;
+        height: 2px;
+        bottom: 0;
       }
     }
 
