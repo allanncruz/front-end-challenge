@@ -3,10 +3,10 @@
         <div class="footer">
             <b-container>
                 <b-row>
-                    <b-col cols="2">
+                    <b-col md="2">
                         <img class="footer-logo" :src="GrandMotors.logo" :alt="GrandMotors.title" >
                     </b-col>
-                    <b-col cols="8">
+                    <b-col md="8">
                         <div class="copyright text-small">
                             <p class="copyright-text">© Copyright 2015 - Cliente - Todos os direitos reservados.</p>
                             <a href="#">Visitar site</a>
@@ -16,7 +16,7 @@
 
                         <img class="copyright-autoforce" :src="AutoForce.logo" :alt="AutoForce.title" >
                     </b-col>
-                    <b-col cols="2">
+                    <b-col md="2">
                         <div class="icons">
                             <a href="#">
                                 <i class="fab fa-facebook-f"></i>

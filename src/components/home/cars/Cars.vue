@@ -5,7 +5,7 @@
             <carousel class="carousel"
                       :autoplay="true"
                       :nav="false"
-                      :items="5"
+                      :responsive="{0:{items:2}, 768:{items:3}, 980:{items:5}}"
             >
 
                 <template class="d-block" slot="prev">

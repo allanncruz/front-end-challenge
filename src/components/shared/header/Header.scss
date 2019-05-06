@@ -11,12 +11,33 @@ header{
   .navbar-brand{
     margin-right: $margin-big;
   }
-  .nav_collapse{
-    border: 0;
-  }
   #nav_collapse{
     justify-content: space-between;
     text-transform: uppercase;
+    .brand-horizontal{
+      margin-left: 50.5px;
+    }
+
+    @media all and (max-width: 768px){
+      background: #181717;
+      padding: $padding-small;
+      .brand-horizontal{
+        margin-left: 0;
+      }
+      .nav-item{
+        width: 100%;
+        text-align: center;
+        .dropdown-menu{
+          position: absolute;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .navbar-toggler{
+    border:0;
+    outline: none;
   }
 
   .navbar-nav{
@@ -26,7 +47,7 @@ header{
       > a{
         padding: $padding-small !important;
         font-size: $font-size-small;
-        color: $color-font;
+        color: $color-font !important;
       }
     }
   }
@@ -59,6 +80,7 @@ header{
   }
 
   .phones{
+    position: relative;
     .phones-box{
       overflow: hidden;
       position: absolute;
@@ -139,9 +161,10 @@ header{
         }
       }
     }
-  }
+    @media all and (max-width: 768px){
 
-  .brand-horizontal{
-    margin-left: 50.5px;
+      width: 100%;
+      text-align: center;
+    }
   }
 }

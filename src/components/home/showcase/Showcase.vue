@@ -2,11 +2,17 @@
     <div>
         <div class="showcase">
 
-            <iframe :src="video.url" :allow="video.allow"></iframe>
+            <iframe class="d-none d-md-block"
+                    :src="video.url"
+                    :allow="video.allow"></iframe>
+
+            <img class="showcase-img absolute d-block d-md-none"
+                 src="../../../assets/banner-video.jpg" alt="">
+
 
             <b-container class="h-100">
                 <b-row class="h-100 align-items-end text-white">
-                    <b-col cols="4">
+                    <b-col md="4">
                         <div class="showcase-content isca">
                             <div class="isca-header text-center">
                                 <h4 class="title text-large text-uppercase m-0">Simular financiamento</h4>
@@ -76,7 +82,7 @@
                             </div>
                         </div>
                     </b-col>
-                    <b-col cols="8" class="p-0">
+                    <b-col md="8" class="p-0">
                         <div class="showcase-content">
                             <div class="headline h-100 position-relative">
                                 <div class="headline-content">
