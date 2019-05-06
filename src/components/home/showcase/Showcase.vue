@@ -12,8 +12,8 @@
 
             <b-container class="h-100">
                 <b-row class="h-100 align-items-end text-white">
-                    <b-col md="4">
-                        <div class="showcase-content isca">
+                    <b-col md="4" order="2" order-md="1">
+                        <div class="showcase-content-isca">
                             <div class="isca-header text-center">
                                 <h4 class="title text-large text-uppercase m-0">Simular financiamento</h4>
                                 <p class="subtitle text-small">Escolha a parcela que cabe no seu bolso.</p>
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                     </b-col>
-                    <b-col md="8" class="p-0">
+                    <b-col md="8" class="p-0" order="1" order-md="2">
                         <div class="showcase-content">
                             <div class="headline h-100 position-relative">
                                 <div class="headline-content">
@@ -99,7 +99,7 @@
                                     </h2>
                                     <span class="conditions text-wee">*Consulte as Condições Comerciais.</span>
                                 </div>
-                                <div class="headline-social position-absolute w-100">
+                                <div class="headline-social w-100">
                                     <p class="text-share text-small text-center mb-1">Gostou? Então compartilhe.</p>
                                     <div class="d-flex justify-content-center">
                                         <div class="btn-share">

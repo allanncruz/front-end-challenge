@@ -131,6 +131,8 @@
     text-align: center;
     .versions-general, .versions-list, .versions-info{
       position: relative;
+      width: 100%;
+      text-align: center;
     }
     .versions-info{
       height: auto;
