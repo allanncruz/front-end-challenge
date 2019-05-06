@@ -28,6 +28,22 @@ html, body {
   color: $color-white;
 }
 
+@mixin scrollbar() {
+  &::-webkit-scrollbar {
+    float: left;
+    height: 170px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 5px;
+    overflow-y: scroll;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+}
+
 
 // Botão customizado referente ao padrão da cor primária
 .btn-primary-base{
