@@ -34,4 +34,10 @@
       }
     }
   }
+  @media all and (max-width: 768px){
+    .icons{
+      justify-content: center;
+      margin-top: $margin-wee;
+    }
+  }
 }

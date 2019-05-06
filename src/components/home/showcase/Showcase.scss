@@ -2,6 +2,12 @@
   height: 704px;
   overflow: hidden;
 
+  .showcase-img{
+    width: 100%;
+    height: 704px;
+    object-fit: cover;
+  }
+
   > iframe{
     box-sizing: border-box;
     height: 73.25vw;
@@ -20,6 +26,18 @@
     a{
       text-decoration: underline;
     }
+  }
+
+  @media all and (max-width: 768px){
+    .showcase-content{
+      top: 6rem;
+      position: relative;
+      text-align: center;
+    }
+    .showcase-img{
+      height: 1000px;
+    }
+    height: 1000px;
   }
 }
 
