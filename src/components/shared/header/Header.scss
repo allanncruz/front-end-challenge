@@ -174,7 +174,7 @@ header{
         .card-body{
           background: $color-primary-base;
           padding: 0.5rem;
-          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 15px 20px rgba($color-steam, 0.2) inset;
         }
       }
     }

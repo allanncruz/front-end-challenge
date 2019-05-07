@@ -22,12 +22,10 @@ html, body {
   position: absolute;
   right: 0;
 }
-
 @mixin nobg-text-white() {
   background: transparent;
   color: $color-white;
 }
-
 @mixin scrollbar() {
   &::-webkit-scrollbar {
     float: left;
@@ -49,7 +47,7 @@ html, body {
 .btn-primary-base{
   font-size: $font-size-base;
   color: $color-font;
-  border-top: solid 2px #d32e51;
+  border-top: solid 2px $color-primary-base;
   border-bottom: solid 2px #1f0b0f;
   border-right:0;
   border-left: 0;
