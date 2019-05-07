@@ -8,16 +8,15 @@
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
         <b-collapse is-nav id="nav_collapse">
-
           <!-- Renderização listas de modelos carros-->
           <b-navbar-nav>
             <b-nav-item-dropdown text="Nossos Veículos" class="rounded-0 modelos">
-              <b-dropdown-item v-for="(model, index) of models"
-                               :key="index"
-                               :href="model.link">
-                {{ model.title }}
-                <img class="modelo" :alt="model.title" :src="model.thumb">
-              </b-dropdown-item>
+              <div class="scrollbox">
+                <b-dropdown-item v-for="(model, index) of models" :key="index" :href="model.link">
+                  {{ model.title }}
+                  <img class="modelo" :alt="model.title" :src="model.thumb">
+                </b-dropdown-item>
+              </div>
             </b-nav-item-dropdown>
 
             <!-- Listas de serviços -->
@@ -41,15 +40,14 @@
               </b-button>
               <b-collapse id="2" class="phones-box">
                 <b-card class="phones-items">
-
                   <!-- Renderização listas de contatos-->
-                  <div v-for="(contact, index) of contacts"
-                       :key="index">
+                  <div v-for="(contact, index) of contacts" :key="index">
                     <b-collapse :id="contact.id">
                       <b-card>
                         <small>
-                          <b>{{contact.tel}}</b>|
-                             {{contact.service}}
+                          <b>{{contact.tel}}</b>
+                          |
+                          {{contact.service}}
                         </small>
                       </b-card>
                     </b-collapse>

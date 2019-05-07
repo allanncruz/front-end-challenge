@@ -64,17 +64,24 @@ header{
   }
   .modelos{
     .dropdown-menu{
-      padding: $padding-tiny;
-      height: 270px;
-      overflow: auto;
+      padding:
+          $padding-small
+          $padding-small
+          $padding-small
+          $padding-tiny;
+
       border-radius: $border-radius;
 
-      @include scrollbar;
-      &::-webkit-scrollbar {
-        background-color: #d7d6d7;
-      }
-      &::-webkit-scrollbar-thumb {
-        background-color: #373435;
+      .scrollbox{
+        overflow: auto;
+        height: 270px;
+        @include scrollbar;
+        &::-webkit-scrollbar {
+          background-color: #d7d6d7;
+        }
+        &::-webkit-scrollbar-thumb {
+          background-color: #373435;
+        }
       }
     }
     .dropdown-item{

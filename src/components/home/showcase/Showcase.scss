@@ -85,14 +85,23 @@
   }
 }
 
+.headline{
+  position: relative;
+  height: 100%;
+}
 .headline-content{
   padding: $padding-middle 0;
-
-  .version{
+  .headline-content-title{
+    margin: 0;
+    font-weight: font-weight-bold;
+    text-transform: uppercase;
+  }
+  .headline-content-version{
     margin-bottom: $margin-base;
     font-weight: $font-weight-bold;
+    text-transform: uppercase;
   }
-  .description{
+  .headline-content-description{
     font-weight: $font-weight-semi-bold;
   }
 }
@@ -112,6 +121,7 @@
 .headline-social{
   position: absolute;
   bottom: $margin-extra;
+  width: 100%;
   .btn-share{
     iframe{
       width: 133px;
