@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="showcase">
-      <iframe class="d-none d-md-block" :src="video.url" :allow="video.allow"></iframe>
+      <iframe class="d-none d-lg-block" :src="video.url" :allow="video.allow"></iframe>
 
       <img
-        class="showcase-img absolute d-block d-md-none"
+        class="showcase-img absolute d-block d-lg-none"
         src="../../../assets/banner-video.jpg"
         alt
       >
 
       <b-container class="h-100">
         <b-row class="h-100 align-items-end text-white">
-          <b-col md="4" order="2" order-md="1">
+          <b-col lg="4" order="2" order-lg="1">
 
             <!-- Formulário simulador de financiamento-->
             <div class="showcase-content-isca">
@@ -65,7 +65,7 @@
           </b-col>
 
           <!-- Área de conteúdo principal-->
-          <b-col md="8" class="p-0" order="1" order-md="2">
+          <b-col lg="8" class="p-0" order="1" order-lg="2">
             <div class="showcase-content">
               <div class="headline">
                 <div class="headline-content">

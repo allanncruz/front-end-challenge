@@ -1,6 +1,6 @@
 <template>
   <header>
-    <b-navbar toggleable="md" type="dark" variant>
+    <b-navbar toggleable="lg" type="dark" variant>
       <b-container>
         <b-navbar-brand href="#">
           <img :src="GrandMotors.logo" :alt="GrandMotors.title">
