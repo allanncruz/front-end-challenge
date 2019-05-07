@@ -7,6 +7,7 @@
             <h3>Versões</h3>
           </div>
           <b-tabs pills card vertical>
+
             <!-- Loop listas de modelos carros-->
             <b-tab v-for="(version, index) of versions" :key="index" :title="version.title" active>
               <b-card-text>

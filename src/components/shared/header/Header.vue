@@ -8,7 +8,8 @@
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
         <b-collapse is-nav id="nav_collapse">
-          <!-- Renderização listas de modelos carros-->
+
+          <!-- Listas de modelos carros-->
           <b-navbar-nav>
             <b-nav-item-dropdown text="Nossos Veículos" class="rounded-0 modelos">
               <div class="scrollbox">
@@ -40,7 +41,8 @@
               </b-button>
               <b-collapse id="2" class="phones-box">
                 <b-card class="phones-items">
-                  <!-- Renderização listas de contatos-->
+
+                  <!-- Listas de contatos-->
                   <div v-for="(contact, index) of contacts" :key="index">
                     <b-collapse :id="contact.id">
                       <b-card>

@@ -15,6 +15,7 @@
           <font-awesome-icon icon="chevron-right"></font-awesome-icon>
         </template>
 
+        <!-- Listas de carros-->
         <div class="item" v-for="(car, index) of cars" :key="index">
           <img :src="car.thunb" :alt="car.title">
           <h6>{{car.title}}</h6>
