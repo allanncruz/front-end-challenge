@@ -15,10 +15,10 @@ header{
     justify-content: space-between;
     text-transform: uppercase;
     .brand-horizontal{
-      margin-left: 50.5px;
+      margin-left: 50px;
     }
 
-    @media all and (max-width: 768px){
+    @media all and (max-width: 960px){
       background: #181717;
       padding: $padding-small;
       .brand-horizontal{
@@ -55,6 +55,8 @@ header{
   .dropdown-menu{
     border-radius: 0;
     padding: $padding-wee 0;
+    position: relative;
+
     a{
       font-size: $font-size-small;
       padding: $padding-tiny $padding-small;
@@ -62,10 +64,25 @@ header{
   }
   .modelos{
     .dropdown-menu{
-      padding: $padding-tiny;
-      height: 270px;
-      overflow: auto;
+      padding:
+          $padding-small
+          $padding-small
+          $padding-small
+          $padding-tiny;
+
       border-radius: $border-radius;
+
+      .scrollbox{
+        overflow: auto;
+        height: 270px;
+        @include scrollbar;
+        &::-webkit-scrollbar {
+          background-color: #d7d6d7;
+        }
+        &::-webkit-scrollbar-thumb {
+          background-color: #373435;
+        }
+      }
     }
     .dropdown-item{
       @include center-space-between;
@@ -157,11 +174,11 @@ header{
         .card-body{
           background: $color-primary-base;
           padding: 0.5rem;
-          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 15px 20px rgba($color-steam, 0.2) inset;
         }
       }
     }
-    @media all and (max-width: 768px){
+    @media all and (max-width: 960px){
 
       width: 100%;
       text-align: center;

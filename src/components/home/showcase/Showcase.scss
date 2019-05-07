@@ -1,10 +1,11 @@
 .showcase{
-  height: 704px;
+  height: 734px;
   overflow: hidden;
+  position: relative;
+  padding-bottom: $padding-extra;
 
   .showcase-img{
     width: 100%;
-    height: 704px;
     object-fit: cover;
   }
 
@@ -22,26 +23,25 @@
   }
   .showcase-content{
     height: 570px;
-    margin-bottom: $margin-extra;
     a{
       text-decoration: underline;
     }
   }
 
-  @media all and (max-width: 768px){
+  @media all and (max-width: 960px){
     .showcase-content{
-      top: 6rem;
-      position: relative;
       text-align: center;
+      height: auto;
+      margin-top: 5rem;
     }
     .showcase-img{
-      height: 1000px;
+      height: 100%;
     }
-    height: 1000px;
+    height: auto;
   }
 }
 
-.isca{
+.showcase-content-isca{
   background: rgba(31,29,27,0.6);
   padding: $padding-middle $padding-small;
 
@@ -77,16 +77,29 @@
   hr{
     background: #464546;
   }
+  @media all and(max-width: 960px ){
+    top: 0 ;
+    height: auto ;
+  }
 }
 
+.headline{
+  position: relative;
+  height: 100%;
+}
 .headline-content{
   padding: $padding-middle 0;
-
-  .version{
+  .headline-content-title{
+    margin: 0;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+  }
+  .headline-content-version{
     margin-bottom: $margin-base;
     font-weight: $font-weight-bold;
+    text-transform: uppercase;
   }
-  .description{
+  .headline-content-description{
     font-weight: $font-weight-semi-bold;
   }
 }
@@ -104,7 +117,9 @@
 }
 
 .headline-social{
-  bottom: 0;
+  position: absolute;
+  bottom: $margin-extra;
+  width: 100%;
   .btn-share{
     iframe{
       width: 133px;
@@ -120,5 +135,10 @@
       border:none;
       overflow:hidden;
     }
+  }
+  @media all and (max-width: 960px){
+    position: relative;
+    bottom: 0;
+    margin-top: $margin-extra;
   }
 }
