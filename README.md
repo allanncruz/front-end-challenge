@@ -2,6 +2,8 @@
 
 > Projeto Landing Page Grand Motors
 
+Link Demo: [Grand Motors](http://allancruz.com.br/grand-motors/)
+
 ## Instalar dependências
 ```
 npm install
@@ -16,11 +18,6 @@ npm run serve
 ### Compila e minifica para produção
 ```
 npm run build
-```
-
-### Testar os componentes
-```
-npm run test
 ```
 
 ### Lints e corrige arquivos
