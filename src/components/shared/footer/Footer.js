@@ -1,6 +1,6 @@
 //Importar imagens usadas
-import logoGrandMotors from "../../../assets/logo.png";
-import logoAutoForce from "../../../assets/autoforce.png";
+import logoGrandMotors from "@/assets/logo.png";
+import logoAutoForce from "@/assets/autoforce.png";
 
 
 export default {
