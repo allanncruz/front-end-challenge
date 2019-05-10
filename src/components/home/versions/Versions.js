@@ -1,7 +1,7 @@
 //Importar imagens usadas
-import gla032 from "../../../assets/versoes/gla_vus_032_bc.png";
-import glc250 from "../../../assets/versoes/GLC_250.png";
-import a200 from "../../../assets/versoes/a-200.png";
+import gla032 from "@/assets/versoes/gla_vus_bc.png";
+import glc250 from "@/assets/versoes/GLC_250.png";
+import a200 from "@/assets/versoes/a-200.png";
 
 export default {
     data() {

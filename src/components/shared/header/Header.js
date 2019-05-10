@@ -1,12 +1,12 @@
 //Importar imagens usadas
-import logoGrandMotors from "../../../assets/logo.png";
-import logoToyotaMotors from "../../../assets/toyota.png";
+import logoGrandMotors from "@/assets/logo.png";
+import logoToyotaMotors from "@/assets/toyota.png";
 
-import etiosHatch from "../../../assets/modelos/etios-hatch_17.png";
-import etiosSeda from "../../../assets/modelos/etios-seda_17.png";
-import etiosCross from "../../../assets/modelos/etios-cross_17.png";
-import corolla from "../../../assets/modelos/corolla_16.png";
-import hiluxDiesel from "../../../assets/modelos/hilux-diesel_16.png";
+import etiosHatch from "@/assets/modelos/etios-hatch_17.png";
+import etiosSeda from "@/assets/modelos/etios-seda_17.png";
+import etiosCross from "@/assets/modelos/etios-cross_17.png";
+import corolla from "@/assets/modelos/corolla_16.png";
+import hiluxDiesel from "@/assets/modelos/hilux-diesel_16.png";
 
 
 export default {
