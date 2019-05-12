@@ -3,20 +3,10 @@
     <div class="advantage relative">
       <b-container>
         <b-row>
-          <b-col md="4 advantage-itens">
-            <h3>Imperdivel</h3>
-            <h1>TAXA ZERO %</h1>
-            <p>Always first off the line. Instant torque delivers full power in a heartbeat.</p>
-          </b-col>
-          <b-col md="4 advantage-itens">
-            <h3>O carro mais</h3>
-            <h1>SEGURO</h1>
-            <p>Always first off the line. Instant torque.</p>
-          </b-col>
-          <b-col md="4 advantage-itens">
-            <h3>Bónus</h3>
-            <h1>R$ 3 mil de até</h1>
-            <p>Always first off the line. Instant torque delivers full power in a heartbeat.</p>
+          <b-col md="4 advantage-itens" v-for="(advantage, index) of advantages" :key="index">
+            <h3>{{advantage.title}}</h3>
+            <h1>{{advantage.subTitle}}</h1>
+            <p>{{advantage.description}}</p>
           </b-col>
         </b-row>
       </b-container>
@@ -24,8 +14,6 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
+<script src="./Advantage.js"></script>
 
 <style lang="scss" src="./Advantage.scss"></style>
