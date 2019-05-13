@@ -100,6 +100,7 @@ header{
       overflow: hidden;
       position: absolute;
       top: 46px;
+      right: 0;
       box-shadow: 0 0 31px rgba(0,0,0,0.4);
       border-radius: 0.25rem ;
     }
@@ -111,7 +112,6 @@ header{
       font-size: $font-size-base;
       box-shadow:none;
       padding: $padding-tiny $padding-small;
-      text-transform: uppercase;
 
       &:active{
         background-color: transparent;

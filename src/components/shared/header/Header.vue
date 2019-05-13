@@ -34,7 +34,7 @@
 
           <b-navbar-nav>
             <div class="phones">
-              <b-button v-b-toggle.2>
+              <b-button v-b-toggle.2 class="text-uppercase">
                 <i class="fas fa-flip-horizontal fa-phone"></i>
                 Telefones
                 <i class="fas fa-chevron-down"></i>
