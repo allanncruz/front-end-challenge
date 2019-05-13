@@ -7,7 +7,6 @@ header{
 
 .navbar{
   margin: $margin-base 0;
-  padding: 0;
   .navbar-brand{
     margin-right: $margin-big;
   }
@@ -17,8 +16,7 @@ header{
     .brand-horizontal{
       margin-left: 50px;
     }
-
-    @media all and (max-width: 960px){
+    @include bp(media-tablet) {
       background: #181717;
       padding: $padding-small;
       .brand-horizontal{
@@ -112,7 +110,8 @@ header{
       border: solid 2px $color-font;
       font-size: $font-size-base;
       box-shadow:none;
-      padding: .5rem 1rem;
+      padding: $padding-tiny $padding-small;
+      text-transform: uppercase;
 
       &:active{
         background-color: transparent;
@@ -178,7 +177,11 @@ header{
         }
       }
     }
-    @media all and (max-width: 960px){
+
+    @include bp(media-tablet) {
+      .phone, .phones-items, .phones-box{
+        width: 100%;
+      }
 
       width: 100%;
       text-align: center;

@@ -20,8 +20,7 @@
       }
     }
 
-    @media all and (max-width: 768px){
-
+    @include bp(media-mobile) {
       padding-top: 2rem;
       padding-bottom: 2rem;
       &:before{
