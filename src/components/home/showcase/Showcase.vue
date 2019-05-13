@@ -5,7 +5,7 @@
 
       <img
         class="showcase-img absolute d-block d-lg-none"
-        src="../../../assets/banner-video.jpg"
+        :src="bannerVideo.url"
         alt
       >
 
@@ -116,17 +116,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      video: {
-        url: "https://player.vimeo.com/video/57398751?background=1",
-        allow: "autoplay"
-      }
-    };
-  }
-};
-</script>
+<script src="./Showcase.js"></script>
 
 <style lang="scss" src="./Showcase.scss"></style>

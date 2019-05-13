@@ -34,7 +34,7 @@
       }
     }
   }
-  @media all and (max-width: 768px){
+  @include bp(media-mobie) {
     .icons{
       justify-content: center;
       margin-top: $margin-wee;
