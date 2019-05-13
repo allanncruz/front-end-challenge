@@ -135,7 +135,7 @@
       }
     }
   }
-  @media all and (max-width: 768px){
+  @include bp(media-mobile) {
     height: auto;
     text-align: center;
     .versions-general, .versions-list, .versions-info{

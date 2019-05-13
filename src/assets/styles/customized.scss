@@ -42,6 +42,16 @@ html, body {
   }
 }
 
+//Media responsivas
+@mixin bp($point) {
+  @if $point == media-tablet {
+    @media (max-width: 960px) { @content; }
+  }
+  @else if $point == media-mobile {
+    @media (max-width: 768px)  { @content; }
+  }
+}
+
 
 // Botão customizado referente ao padrão da cor primária
 .btn-primary-base{
